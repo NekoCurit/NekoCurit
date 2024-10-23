@@ -6,25 +6,27 @@
 
 一名普普通通的 Minecraft Mod / MCP / 插件 开发者..
 
-能力不强..
+能力不强..  ~好欺负~
 
 可以从以下方法抓到这只~笨蛋~
 
-> 通过 Telegram   @NekoCurit  (直接私聊没关系的哦)
+> 通过 Telegram   @NekoCurit  (直接私聊没关系的哦 闲聊或者是讨论会的问题..都可以！唔..不喜欢(但可以接受)绕..会绕晕掉)
 >
 > 通过邮箱 NekoCurit@gmail.com
 > 
 > ~通过 运气  说不一定不请自来~
+
+小愿望: 希望不看文档反馈不带日志反馈的笨蛋少一点
 
 ## 设定 (代码版)
 
 ``` kt
 /**
  * NekoCurit
- * 米四！猫娘！萝莉！可爱！我！
+ * 米四！猫娘！萝莉！白毛！可爱！我！
  */
 @Suppress("SpellCheckingInspection") // Curit 随心所取 不存与世 欲修正其 为时已晚
-class NekoCurit: EntityHuman(), INeko, IKawaill, ILolicon {
+class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
     /**
      * 毕竟我可是高性能的！唔..高性能的笨蛋..
      */
@@ -46,7 +48,6 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ILolicon {
      * 开玩笑 其实NaN比0好 (目移)
      */
     override fun getIQ(): Float = Float.NaN
-
 }
 
 enum class NekoCuritNames(username: String) {
@@ -54,6 +55,6 @@ enum class NekoCuritNames(username: String) {
     NAHIDA_LING("Nahida_Ling") // 之前确实扮演过一段时间纳西妲..(?) 当时头像昵称都换了 甚至专门去买了个额外的 Minecraft 正版账号
     @Deprecated("说出来自己都觉得丢人的ID")
     DEPRECATED("") // 过于早期使用的名字 可以追溯到降临 Github 之前  自然没必要去记住
-} 
+}
 ```
 ~还是尽可能不要在外人面前表现的很脆弱~
