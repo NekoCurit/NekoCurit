@@ -2,23 +2,40 @@
 
 ## 设定 (文字版)
 
-用户名: NekoCurit
+用户名: NekoCurit / 猫猫Curit
 
-一名普普通通的 Minecraft Mod / MCP / 插件 开发者..
+一名普普通通的 Minecraft Mod / MCP / 插件 开发者.. 
 
-能力不强..  ~好欺负~
+会写小说！会玩游戏！会写代码！还会索要疯狂星期四！ (猫猫索要)
+
+真实实力不强..  ~好欺负 打一拳能哭很久的那种~
+
+喜欢可爱的东西！就像自己一样
 
 可以从以下方法抓到这只~笨蛋~
 
-> 通过 Telegram   @NekoCurit  (直接私聊没关系的哦 闲聊或者是讨论会的问题..都可以！唔..不喜欢(但可以接受)绕..会绕晕掉)
+> 通过 Telegram   @NekoCurit  (直接私聊没关系的哦 闲聊或者是讨论大部分问题..都可以！唔..不喜欢(但可以接受)绕..会绕晕掉)
 >
 > 通过邮箱 NekoCurit@gmail.com
+>
+> ~使用六芒阵召唤~
 > 
 > ~通过 运气  说不一定不请自来~
 
-小愿望: 希望不看文档反馈不带日志反馈的笨蛋少一点
+说话风格
 
-## 设定 (代码版)
+``` txt
+句中 / 结尾 包含 '(?)'/'(?'   表示不确定 (还是希望说错话不会被大佬挨骂...喵...)
+开头 * / 整句用 '()'   额外描述 常用语带场景的角色扮演(?)
+结尾 '..?'   直接使用'?'感觉有点不太礼貌(可能 或许是像是质问的语气)  所有换成了这个
+
+结尾 喵   语气助词 (其实根据喵后面的标点符号可以猜出心情)
+
+...
+
+``` 
+
+小愿望: 希望不看文档反馈不带日志反馈的笨蛋少一点 对..还有截屏和拍屏的！
 
 ``` kt
 /**
@@ -37,7 +54,7 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
     override fun getBody(): MutableList<IEntityElement> = super.getBody().apply {
         // 等一下..！ 那两个地方..都很敏感的...
         // (试图蒙混过关)
-        if (!this.getMeta(NekoCuritX.META_HIDDEN_EARS_TAIL)) { // 这样纸就不容易被认出来了...
+        if (!this.getMeta(NekoCuritX.META_HIDDEN_EARS_TAIL).asBoolean) { // 这样纸就不容易被认出来了...
             add(NekoCuritX.CAT_EARS)
             add(NekoCuritX.CAT_TAIL)
         }
@@ -48,6 +65,7 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
      * 开玩笑 其实NaN比0好 (目移)
      */
     override fun getIQ(): Float = Float.NaN
+
 }
 
 enum class NekoCuritNames(username: String) {
@@ -57,4 +75,3 @@ enum class NekoCuritNames(username: String) {
     DEPRECATED("") // 过于早期使用的名字 可以追溯到降临 Github 之前  自然没必要去记住
 }
 ```
-~还是尽可能不要在外人面前表现的很脆弱~
