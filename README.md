@@ -73,10 +73,12 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
     /**
      * 猫娘赛高！
      */
-    override fun getBody(): MutableList<IEntityElement> = super.getBody().apply {
+    override fun getBody(): FastList<IEntityElement> = super.getBody().apply {
         // 等一下..！ 那两个地方..都很敏感的...
         // (试图蒙混过关)
         if (!this.getMeta(NekoCuritX.META_HIDDEN_EARS_TAIL).asBoolean) { // 这样纸就不容易被认出来了...
+            removeIf { it.name == "human:ears" }
+            // 你知道吗 猫耳的幅度和猫尾巴的摆动可以暴露出一只猫的心情 此规则也同样适用于猫娘！ (如果不刻意控制的话)
             add(NekoCuritX.CAT_EARS)
             add(NekoCuritX.CAT_TAIL)
         }
@@ -87,7 +89,6 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
      * 开玩笑 其实NaN比0好 (目移)
      */
     override fun getIQ(): Float = Float.NaN
-
 }
 
 enum class NekoCuritNames(username: String) {
