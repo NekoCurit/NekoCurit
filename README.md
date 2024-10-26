@@ -57,7 +57,7 @@
 > 
 > > 其实猫猫对他们的容忍程度还是很高的qwq... ~毕竟要维持可爱的形象嘛~
 
-> ~被喜欢的人抱回家 养着！
+> ~被喜欢的人抱回家 养着！~
 
 ``` kt
 /**
@@ -65,6 +65,7 @@
  * 米四！猫娘！萝莉！白毛！可爱！我！
  */
 @Suppress("SpellCheckingInspection") // Curit 随心所取 不存与世 欲修正其 为时已晚
+@NekoCurit
 class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
     /**
      * 毕竟我可是高性能的！唔..高性能的笨蛋..
@@ -93,8 +94,21 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
 
 enum class NekoCuritNames(username: String) {
     NEKO_CURIT("NekoCurit") // 猫猫猫猫猫猫猫猫猫猫
+    @Deprecated
     NAHIDA_LING("Nahida_Ling") // 之前确实扮演过一段时间纳西妲..(?) 当时头像昵称都换了 甚至专门去买了个额外的 Minecraft 正版账号
+    @Deprecated
+    WU_XIAN_XIANG_QIAN("无限向前") // 仅在 Minecraft 网易版使用过 考古 时间过于久远
+    @Deprecated
+    MHFT("MHFT") // 时间过于久远 2018之前 全称 Minecraft Hack F██████ T███
     @Deprecated("说出来自己都觉得丢人的ID")
     DEPRECATED("") // 过于早期使用的名字 可以追溯到降临 Github 之前  自然没必要去记住
 }
+
+/**
+ * 猫猫Curit的专属印记！或者...猫猫Curit的眷属！
+ * 代码层印记可比契约层强多了qwq...
+ */
+@Retention(AnnotationRetention.RUNTIME)
+annotation class NekoCurit
+
 ```
