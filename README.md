@@ -121,8 +121,12 @@ enum class NekoCuritNames(username: String) {
 }
 
 /**
- * 猫猫Curit的专属印记！或者...猫猫Curit的眷属！
- * 代码层印记可比契约层强多了qwq...
+ * 猫猫Curit的专属印记！
+ * 给自己加上，你就是猫猫Curit的眷属了！
+ *
+ * 至于为什么不用契约..
+ * 契约..要血..可单向强行解除..麻烦
+ * 代码..不可更改..方便..
  */
 @Retention(AnnotationRetention.RUNTIME)
 annotation class NekoCurit
