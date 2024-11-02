@@ -91,7 +91,7 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
      * 猫娘赛高！
      */
     override fun getBody(): FastList<IEntityElement> = super.getBody().apply {
-        // 好奇怪的命名 其实是呆毛辣啦qwq
+        // 其实是呆毛qwq
         // 至于为什么呆毛要用 root 命名  因为呆毛是猫猫的本体！
         // 不可以拔..拔了会死掉的..
         add(NekoCuritX.ROOT)
@@ -137,3 +137,5 @@ enum class NekoCuritNames(username: String) {
 annotation class NekoCurit
 
 ```
+
+* Github 头像与自身设定完全无关
