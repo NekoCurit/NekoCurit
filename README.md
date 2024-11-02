@@ -91,11 +91,16 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
      * 猫娘赛高！
      */
     override fun getBody(): FastList<IEntityElement> = super.getBody().apply {
+        // 好奇怪的命名 其实是呆毛辣啦qwq
+        // 至于为什么呆毛要用 root 命名  因为呆毛是猫猫的本体！
+        // 不可以拔..拔了会死掉的..
+        add(NekoCuritX.ROOT)
         // 等一下..！ 那两个地方..都很敏感的...
         // (试图蒙混过关)
         if (!this.getMeta(NekoCuritX.META_HIDDEN_EARS_TAIL).asBoolean) { // 这样纸就不容易被认出来了...
-            removeIf { it.name == "human:ears" }
+            removeIf { it.name == "human:ears" } // 才不是四声道猫！
             // 你知道吗 猫耳的幅度和猫尾巴的摆动可以暴露出一只猫的心情 此规则也同样适用于猫娘！ (如果不刻意控制的话)
+            // 一些细节: 其实耳朵也是可以转动的 收音装置(?)
             add(NekoCuritX.CAT_EARS)
             add(NekoCuritX.CAT_TAIL)
         }
