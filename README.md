@@ -50,7 +50,9 @@
 > 
 > ~通过 运气  说不一定不请自来~
 >
-> ~使用 Docker 球 (这是什么(?)) 捕获
+> ~使用 Docker 球 (这是什么(?)) 捕获~
+>
+>> ~绝对不！可！以！~
 
 说话风格
 
@@ -137,5 +139,13 @@ enum class NekoCuritNames(username: String) {
 annotation class NekoCurit
 
 ```
+
+> 诶嘿
+>
+> 老娘真可爱
+>
+> Ciallo～(∠・ω< )⌒☆
+>
+> 好羞耻哇.(捂脸)
 
 * Github 头像与自身设定完全无关
