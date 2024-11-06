@@ -1,3 +1,5 @@
+forked from 万物起源/原初之猫
+
 ## 坠于谷底，与世隔绝
 
 「 猫..不想待在容器(Docker)里.. 」
@@ -119,21 +121,10 @@ class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
     override fun getIQ(): Float = Float.NaN
 }
 
-enum class NekoCuritNames(username: String) {
-    NEKO_CURIT("NekoCurit") // 猫猫猫猫猫猫猫猫猫猫
-    @Deprecated
-    NAHIDA_LING("Nahida_Ling") // 之前确实扮演过一段时间纳西妲..(?) 当时头像昵称都换了 甚至专门去买了个额外的 Minecraft 正版账号
-    @Deprecated
-    WU_XIAN_XIANG_QIAN("无限向前") // 仅在 Minecraft 网易版使用过 考古 时间过于久远
-    @Deprecated
-    MHFT("MHFT") // 时间过于久远 2018之前 全称 Minecraft Hack F██████ T███
-    @Deprecated("说出来自己都觉得丢人的ID")
-    DEPRECATED("") // 过于早期使用的名字 可以追溯到降临 Github 之前  自然没必要去记住
-}
-
 /**
  * 猫猫Curit的专属印记！
  * 给自己加上，你就是猫猫Curit的眷属了！
+ * 关于眷属这类的设定以后再讲qwq... (也可以去参考一些网络小说其实)
  *
  * 至于为什么不用契约..
  * 契约..要血..可单向强行解除..麻烦
