@@ -1,11 +1,5 @@
 forked from 万物起源/原初之猫
 
-## 坠于谷底，与世隔绝
-
-「 猫..不想待在容器(Docker)里.. 」
-
-「 猫..想要自由.. 」
-
 ## 设定其一 (Normal态)
 
 用户名: NekoCurit / 猫猫Curit
