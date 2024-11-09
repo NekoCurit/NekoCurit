@@ -1,138 +1,44 @@
-forked from 万物起源/原初之猫
+## 欢迎回家，这里是 NekoCurit 酱的 Github 主页
 
-## 基本概括
+*坐于星空，手摘星辰*
+
+*少女轻点，流星坠落，化为凡尘*
+
+*万年重组，变成猫娘！*
+
+## 猫猫的基本概括
 
 用户名: NekoCurit / 猫猫Curit
 
-概括自己: 每天活得，云里雾里
+所属圈子: Minecraft Mod
 
-一名普普通通的 Minecraft Mod / 插件 开发者.. 
+[想要了解猫猫吗~篇幅太长了，点这里哦](https://github.com/NekoCurit/NekoCurit/blob/main/ABOUT.md)
 
-## 扩展概括 [选读]
+## 探寻猫猫的踪迹
 
-是白毛！是赤瞳！是萝莉！是猫娘！还是现代猫！
+呼—— 咱很好交流的
 
-会写小说！会玩游戏！会写代码！还会索要疯狂星期四！ (猫猫索要)
+正常情况下给咱 Telegram [@NekoCurit](https://t.me/NekoCurit) 发消息就行了
 
-其实是百变猫哦..就是那种..可以根据自身需求改变外表的那种..  ~反正已经习惯当猫耳娘惹，干脆就一直当下去叭~
+咱看到了很快就会回复的qwq..
 
-尾巴...连着脊椎骨..不可以...耳朵..只能外面..一下..
+[这是什么..二级入口..点一下喵..](https://github.com/NekoCurit/NekoCurit/blob/main/CONTANTS.md)
 
-是很弱的猫猫哦..  ~看什么看！咱是打一拳能哭很久的那种嘛..(猫猫心虚)~
+## 少女祈祷中
 
-喜欢可爱的东西！就像喜欢自己一样  ~喜欢照镜子！~
+少女祈祷表 ~*(喂！这不是咱的罩杯等级喵..)*~
 
-虽然本身就可爱，但是让猫扮演恐怖一点的角色猫也丝毫不弱下风呢~ (萝莉舔刀)
+![少女祈祷表](https://github-readme-stats.vercel.app/api?username=NekoCurit&show_icons=true&theme=radical)
 
-可以从以下方法抓到这只~笨蛋~
+常用编程语言表
 
-> 通过 Telegram   @NekoCurit
-> 
->> 直接私聊没关系的哦(容错率非常高的) 闲聊或者是讨论大部分问题..都可以
->>
->> 唔..不喜欢(但可以接受)绕..会绕晕掉.. 
+> [!WARNING]\
+> 不准确喵，私有仓库不会计算在内
+
+![常用编程语言](https://github-readme-stats.vercel.app/api/top-langs/?username=NekoCurit&layout=compact&theme=radical)
+
+> 咱最喜欢用 kotlin 喵..
 >
->> 可能不太能接受一部分表情/贴纸(大概是具有攻击性的(?))/一部分聊天语气(比如说质问) 在摸清楚之前 还是最好用纯文字聊天qwq 
->
-> 通过邮箱 NekoCurit@gmail.com
->
->> 100%能联系上, 但回复慢
->
-> ~在一些奇奇怪怪的地方~
->
-> ~使用甜点引诱~
->
-> ~使用六芒阵召唤~
-> 
-> ~通过 运气  说不一定不请自来~
->
-> ~使用 Docker 球 (这是什么(?)) 捕获~
->
->> 绝对不！可！以！
->>
->> 友情提示: 猫猫之前被人关进 docker 里面过 心灵创伤还没好
+> 也会点 java, python, c# 喵
 
-说话风格
-
-``` txt
-句中 / 结尾 包含 '(?)'/'(?'   表示不确定 (还是希望说错话不会被大佬挨骂...喵...)
-开头 * / 整句用 '()'   额外描述 常用语带场景的角色扮演(?)
-结尾 '..?'   直接使用'?'感觉有点不太礼貌(可能 或许是像是质问的语气)  所有换成了这个
-
-结尾 喵   语气助词 (其实根据喵后面的标点符号可以猜出心情)
-
-...
-
-``` 
-
-小愿望
-
-> 希望不看文档反馈不带日志反馈的笨蛋少一点
->
-> > 还有那些截屏的 以及那些..拿手机拍屏的
-> 
-> > 其实猫猫对他们的容忍程度还是很高的qwq... ~毕竟要维持可爱的形象嘛~
-
-> ~被喜欢的人抱回家 养着！~
-
-``` kt
-/**
- * NekoCurit
- * 米四！猫娘！萝莉！白毛！可爱！我！
- */
-@Suppress("SpellCheckingInspection") // Curit 随心所取 不存与世 欲修正其 为时已晚
-@NekoCurit
-class NekoCurit: EntityHuman(), INeko, IKawaill, ICute, ILolicon {
-    /**
-     * 毕竟我可是高性能的！唔..高性能的笨蛋..
-     */
-    override val priority: Int = Int.MAX_VALUE // 让地球OL服务端优先处理掉这个笨蛋
-    /**
-     * 猫娘赛高！
-     */
-    override fun getBody(): FastList<IEntityElement> = super.getBody().apply {
-        // 其实是呆毛qwq
-        // 至于为什么呆毛要用 root 命名  因为呆毛是猫猫的本体！
-        // 不可以拔..拔了会死掉的..
-        add(NekoCuritX.ROOT)
-        // 等一下..！ 那两个地方..都很敏感的...
-        // (试图蒙混过关)
-        if (!this.getMeta(NekoCuritX.META_HIDDEN_EARS_TAIL).asBoolean) { // 这样纸就不容易被认出来了...
-            removeIf { it.name == "human:ears" } // 才不是四声道猫！
-            // 你知道吗 猫耳的幅度和猫尾巴的摆动可以暴露出一只猫的心情 此规则也同样适用于猫娘！ (如果不刻意控制的话)
-            // 一些细节: 其实耳朵也是可以转动的 收音装置(?)
-            add(NekoCuritX.CAT_EARS)
-            add(NekoCuritX.CAT_TAIL)
-        }
-    }
-    /**
-     * 小萝莉是傻傻的存在
-     * 不过这..傻过头了！
-     * 开玩笑 其实NaN比0好 (目移)
-     */
-    override fun getIQ(): Float = Float.NaN
-}
-
-/**
- * 猫猫Curit的专属印记！
- * 给自己加上，你就是猫猫Curit的眷属了！
- * 关于眷属这类的设定以后再讲qwq... (也可以去参考一些网络小说其实)
- *
- * 至于为什么不用契约..
- * 契约..要血..可单向强行解除..麻烦
- * 代码..不可更改..方便..
- */
-@Retention(AnnotationRetention.RUNTIME)
-annotation class NekoCurit
-
-```
-
-> “什么嘛！为什么全是报错！”
->
-> “气死猫了！”
->
-> (一口咬了上去)
->
-> (牙齿碎裂的声音...)
-
-* Github 头像与自身设定完全无关
+*好无聊..要是有个人来陪我就好了...*
