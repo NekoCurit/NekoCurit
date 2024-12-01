@@ -8,7 +8,7 @@
 > ``` kt
 > // 自动执行 看看有多少杂鱼点进来了
 > autoRun {
->    HttpUtils.get("https\\api.nekocurit.asia\api\count?name=github_readme_about")
+>    HttpUtils.get("https://api.nekocurit.asia/api/count?name=github_readme_about")
 > }
 > // 放心 不是真的 不会暴露IP地址的qwq..
 > ```
