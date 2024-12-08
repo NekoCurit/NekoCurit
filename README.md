@@ -8,8 +8,7 @@
 
 用户名: NekoCurit / 猫猫Curit
 
-
-Minecraft Mod / 插件 开发
+Minecraft JE开发 / 建筑 / 生存 / pvp 圈
 
 > [!NOTE]\
 > 基于兴趣制作 Mod 喵..
@@ -19,24 +18,17 @@ Minecraft Mod / 插件 开发
 > Mod制作偏向纯客户端辅助型..
 >
 > 插件主打开发有趣的插件..以及闲暇之余 fork 个开源反作弊修一修某些绕过
+>
+> 咱的建筑能力也不差，无论是在创造还是纯生存上qwq...
 
-Minecraft 建筑
+网文 / OC / 世界观
 
 > [!NOTE]\
-> 可爱樱花风格喵..
+> 源于萝莉奇奇怪怪的脑袋
 >
-> 等有时间咱就把照片贴上去喵..很好看的(蹭蹭)
-
-Minecraft PVP
-
-> [!WARNING]\
-> 咱真的不推荐新人去入坑 Minecraft PVP 圈喵..
+> 可能不一定所有人都能理解..(?)
 >
-> 那里风气很乱的
-
-......
-
-[想要了解猫猫吗~篇幅太长了，点这里哦](https://github.com/NekoCurit/NekoCurit/blob/main/ABOUT.md)
+> [如果能理解的话可以点这里看一下](https://github.com/NekoCurit/NekoCurit/blob/main/ABOUT.md)
 
 ## 探寻猫猫的踪迹
 
