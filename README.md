@@ -3,7 +3,7 @@
 java.lang.NullPointerException
 
 
-## 不需要视监即可获取的基本情报
+## 不需要视奸即可获取的基本情报
 
 用户名: NekoCurit
 
@@ -29,3 +29,18 @@ NekoCurit, Neko 指的是猫猫, Curit 是咱乱打的.
 
 平日主要使用 Telegram 作为社交, 活跃于技术群聊中. (也许早就见过咱了(?))
 
+## 联系/视奸方式
+
+Telegram: [NekoCurit](https://t.me/+8616524706151)
+
+> [!WARNING]\
+> 使用了 [保持在线](https://github.com/LockHops/UpdatedAlwaysOnline)
+>
+> 因此 显示在线 ≠ 萝莉在线
+
+> [!WARNING]\
+> 萝莉对聊天对象可能存在限制
+>
+> 如果是闲聊可能大概率只能接受同类 (?)
+
+Email: [nekocurit@gmail.com](mailto:nekocurit@gmail.com)
