@@ -1,7 +1,10 @@
-## 欢迎回家，这里是 NekoCurit 酱的 Github 主页
+## 已摆烂
 
-java.lang.NullPointerException
+![image](https://github.com/user-attachments/assets/4bd6a4d3-d843-4cda-9254-719d8a7841ea)
 
+~75% OFF~
+
+~给钱什么都做~
 
 ## 不需要视奸即可获取的基本情报
 
