@@ -1,11 +1,3 @@
-## 已摆烂
-
-![image](https://github.com/user-attachments/assets/4bd6a4d3-d843-4cda-9254-719d8a7841ea)
-
-~75% OFF~
-
-~给钱什么都做~
-
 ## 不需要视奸即可获取的基本情报
 
 用户名: NekoCurit
