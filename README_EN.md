@@ -12,7 +12,7 @@ Curit -> (Inse)curit **Intentionally omitting**
 
 Kotlin, Java
 
-## Fined Me
+## Find Me
 
 Telegram: [NekoCurit](https://t.me/m/R-gijfUVMDll)
 

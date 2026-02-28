@@ -1,10 +1,12 @@
-[简体中文](READKE.md) | [English](README_EN.md)
+[简体中文](README.md) | [English](README_EN.md)
 
 # 不需要视奸即可获取的基本情报
 
+<!-- 是小彩蛋哦 -->
+
 唯一名称: NekoCurit
 
-可用称呼: (最好不带任何称呼, 或者自己起一个也可以(你开心就好))
+可用称呼: *(最好不带任何称呼, 或者自己起一个也可以(你开心就好))*
 
 ## 自我介绍
 
@@ -41,3 +43,4 @@ Email: [nekocurit@proton.me](mailto:nekocurit@proton.me)
 Discord: [nekocurit](https://discord.com)
 
 WeChat: *联系 Telegram 后累计一定好感可获取*
+
