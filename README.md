@@ -1,3 +1,5 @@
+[简体中文](READKE.md) | [English](README_EN.md)
+
 # 不需要视奸即可获取的基本情报
 
 唯一名称: NekoCurit
@@ -34,11 +36,8 @@ NekoCurit, Neko 指的是猫猫, Curit ~是咱乱打的~ 源自 security 减少�
 
 Telegram: [NekoCurit](https://t.me/m/R-gijfUVMDll)
 
-Telegeam频道(日常向): [NekoCurit](https://t.me/nekocurit)
-
-> [!WARNING]\
-> 你知道吗..这个用户名是猫猫花费 10 TON 买下的 
->
-> 所！有！权！
-
 Email: [nekocurit@proton.me](mailto:nekocurit@proton.me)
+
+Discord: [nekocurit](https://discord.com)
+
+WeChat: *联系 Telegram 后累计一定好感可获取*
